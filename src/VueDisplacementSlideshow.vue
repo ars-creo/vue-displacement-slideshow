@@ -118,7 +118,8 @@
                 this.renderer.setClearColor(0xffffff, 0.0);
                 this.renderer.setSize(this.slider.offsetWidth, this.slider.offsetHeight);
                 this.$refs.slider.appendChild(this.renderer.domElement);
-                console.log('test');
+                this.console.log('test');
+                //this is console test
             },
             render() {
                 this.renderer.render(this.scene, this.camera);
